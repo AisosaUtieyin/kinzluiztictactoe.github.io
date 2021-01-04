@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: mediumseagreen;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: plum;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.gameTitle {
+  text-align: center;
+}
+
+.yellow {
+  color: yellow;
+}
+.white {
+  color: white;
+}
+.red {
+  color: red;
+}
+
+.gameButtons {
+  margin-top: 25px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.resetButton {
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  color: whitesmoke;
+}
+
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin-top: 50px;
+  background: mediumseagreen;
+}
+
+.gameCell {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  background: plum;
+}
+
+.x::before {
+  content: "×";
+  color: yellow;
+  font-size: 100px;
+  text-align: center;
+}
+
+.o::before {
+  content: "○";
+  color: red;
+  font-size: 100px;
+  text-align: center;
+}
+
+.playerx {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.playery {
+  display: flex;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 200px;
+  height: 100px;
+  background-color: plum;
+}
