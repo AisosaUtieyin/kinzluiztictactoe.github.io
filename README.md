@@ -1,2 +1,2 @@
-#page can be found at the link below
+#page can be found at
 #https://aisosautieyin.github.io/kinzluiztictactoe.github.io/
